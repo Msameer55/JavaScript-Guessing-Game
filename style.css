@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(to right, #538bb4, #65f);
+
+}
+
+.container{
+    width: 50%;
+    min-width: 580px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: #ffff;
+    padding: 50px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: grid;
+    justify-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: 600;
+
+}
+input[type='text']{
+    width: 110px;
+    font-size: 27px;
+    font-weight: 600;
+    padding: 20px 5px;
+    /* background-image: url('https:www.google.com') ; */
+    margin-top: 25px;
+    border-radius: 5px;
+    color: #1109fa;
+    text-align: center;
+    border: 2px solid #656565;
+}
+
+button{
+    font-size: 20px;
+    width: 100px;
+    padding: 15px 0px;
+    background-color: #4b46da;
+    cursor: pointer;
+    color:#ffff;
+    border: 1px solid #000;
+    outline: none;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 15px;
+}
